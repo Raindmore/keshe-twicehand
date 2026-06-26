@@ -1,0 +1,49 @@
+/* ========================================
+   Design Tokens — 高校二手物品交易平台
+   基于 DESIGN.md 规范定义
+   ======================================== */
+
+:root {
+  /* ── 主色调：薄荷青系列 ── */
+  --color-primary: #5aa9ad;
+  --color-primary-deep: #48878a;
+  --color-primary-light: #e0f5f5;
+  --color-primary-shadow: rgba(90, 169, 173, 0.25);
+
+  /* ── 强调色：暖橙（仅用于价格/促销，占比 ≤5%）── */
+  --color-accent: #ff6700;
+
+  /* ── 中性色 ── */
+  --color-bg: #ffffff;
+  --color-ink: #333333;
+  --color-muted: #949494;
+  --color-divider: #dddddd;
+
+  /* ── 圆角 ── */
+  --radius-sm: 4px;
+  --radius-md: 10px;
+  --radius-lg: 15px;
+  --radius-xl: 20px;
+
+  /* ── 间距 ── */
+  --spacing-xs: 5px;
+  --spacing-sm: 10px;
+  --spacing-md: 20px;
+
+  /* ── 字体 ── */
+  --font-family: "Helvetica Neue", Helvetica, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  --font-size-body: 14px;
+  --font-size-price: 18px;
+  --font-size-title: 20px;
+
+  /* ── 阴影（扁平优先，仅 hover 出现）── */
+  --shadow-hover: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  --shadow-card-hover: 0 8px 24px rgba(90, 169, 173, 0.18);
+
+  /* ── Element UI 语义色（保持原生）── */
+  --el-blue: #409eff;
+  --el-green: #67c23a;
+  --el-red: #f56c6c;
+  --el-orange: #e6a23c;
+}

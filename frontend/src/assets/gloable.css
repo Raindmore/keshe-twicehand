@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background:
+        /* 云层光斑 */
+        radial-gradient(ellipse at 20% 20%, rgba(255,182,140,0.25) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 10%, rgba(135,206,250,0.2) 0%, transparent 45%),
+        radial-gradient(ellipse at 50% 60%, rgba(144,238,144,0.15) 0%, transparent 55%),
+        radial-gradient(ellipse at 10% 80%, rgba(255,218,121,0.18) 0%, transparent 40%),
+        radial-gradient(ellipse at 90% 70%, rgba(221,160,221,0.18) 0%, transparent 45%),
+        /* 主背景渐变 — 清晨校园色调 */
+        linear-gradient(175deg, 
+            #e8f0fe 0%,      /* 淡蓝天空 */
+            #fce4d6 15%,     /* 晨曦橙 */
+            #fff8e7 35%,     /* 暖阳米 */
+            #e8f5e9 55%,     /* 草地绿 */
+            #f3e5f5 75%,     /* 淡紫 */
+            #e3f2fd 100%     /* 淡蓝 */
+        );
+    background-attachment: fixed;
+}
+
+#app {
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.pd-10 {
+    padding: 10px 0;
+}
+.m-10 {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+/* 全局滚动条美化 */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #f0f0f5;
+}
+::-webkit-scrollbar-thumb {
+    background: #5aa9ad;
+    border-radius: 3px;
+}

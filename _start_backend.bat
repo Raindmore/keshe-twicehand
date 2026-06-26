@@ -1,4 +1,4 @@
-@echo off
-cd /d "C:\Users\Lenovo\Desktop\twice-market-master\二手交易平台"
-set JAVA_HOME=D:\Program Files\Java\jdk-17
+﻿@echo off
+cd /d "D:\twice-market-master\backend"
+set JAVA_HOME=D:\develop\java\jdk-21
 call mvnw.cmd spring-boot:run -DskipTests

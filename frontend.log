@@ -1,0 +1,15 @@
+
+> vue_springboot_demo@0.1.0 serve
+> vue-cli-service serve
+
+ INFO  Starting development server...
+ DONE  Compiled successfully in 3264ms00:24:33
+
+
+  App running at:
+  - Local:   http://localhost:82/ 
+  - Network: unavailable
+
+  Note that the development build is not optimized.
+  To create a production build, run npm run build.
+
